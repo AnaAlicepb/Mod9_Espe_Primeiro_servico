@@ -1,0 +1,31 @@
+
+
+PROJETO API REST PARA ADOCAO DE ANIMAIS
+
+FORAM CRIADOS ALGUNS METODOS DE BUSCAR E CADASTRO DE ANIMAIS
+
+Requisitos funcionais:
+
+API que permite o cadastro e consulta de cães e gatos de animais em um abrigo
+
+Endpoints: 
+
+- Cadastro de animais ("/animais")
+- Listagem de todos animais ("/animais")
+- Listagem de animais no abrigo que ainda não foram adotados, ordenados pela data de entrada no abrigo("/animais/not-adopted")
+- Listagem de animais no abrigo que já foram adotados ("/animais/adopted")
+- Listagem de número de animais que foram resgatados por cada pessoa em um intervalo de um ano("/animais/animais-resgatadores")
+
+Requisitos não funcionais:
+
+Linguagem: Java
+Base de dados a ser utilizada: H2
+Autenticação e autorização: login e senha banco de dados H2 é configurada em application.properties, sem configurações avançadas de autenticação e autorização
+Larga escala: não
+APIs precisam retornar o resultado no formato JSON
+Protocolo de comunicação: HTTP
+As APIs precisam ser no formato RESTFul 
+
+Domínio:
+
+Animais

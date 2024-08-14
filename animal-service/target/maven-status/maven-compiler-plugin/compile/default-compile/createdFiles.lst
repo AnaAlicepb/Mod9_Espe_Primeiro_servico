@@ -1,0 +1,7 @@
+br\com\AdoteBichinho\animal_service\repositorios\AnimalRepository.class
+br\com\AdoteBichinho\animal_service\entidades\Animal.class
+br\com\AdoteBichinho\animal_service\dto\ResgatadorDTO.class
+br\com\AdoteBichinho\animal_service\AnimalServiceApplication.class
+br\com\AdoteBichinho\animal_service\entidades\Tipo.class
+br\com\AdoteBichinho\animal_service\entidades\Resgatador.class
+br\com\AdoteBichinho\animal_service\controllers\AnimalController.class
